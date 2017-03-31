@@ -1,4 +1,4 @@
-package com.restart.ctci;
+package com.restart.ctci.Ch_01;
 
 
 public class Q1_02_Check_Permutation {

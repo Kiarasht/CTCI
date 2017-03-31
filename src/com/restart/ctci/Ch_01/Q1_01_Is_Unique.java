@@ -1,4 +1,4 @@
-package com.restart.ctci;
+package com.restart.ctci.Ch_01;
 
 public class Q1_01_Is_Unique {
 
