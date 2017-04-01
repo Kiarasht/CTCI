@@ -1,9 +1,10 @@
 package com.restart.ctci.Ch_01;
 
-public class Q1_01_Is_Unique {
 
+public class Q1_01_Is_Unique {
     /*
-    Implement an algorithm to determine if a string has all unique characters.
+    Implement an algorithm to determine if a string has all unique characters. What if you
+    cannot use additional data structures?
 
     Time: O(1) - Strings longer than 128 will return false. The loop can not exceed 128, therefore having a constant time complexity.
     Space: O(1) - Using only a static array, therefore, the space complexity is constant as well.
@@ -15,7 +16,7 @@ public class Q1_01_Is_Unique {
     }
 
     private static boolean Is_Unique(String word) {
-        if (word == null || word.length() == 0 || word.length() == 1 || word.length() > 128) {
+        if (word == null || word.length() == 0 || word.length() > 128) {
             return false;
         }
 
